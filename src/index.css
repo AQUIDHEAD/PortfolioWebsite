@@ -1,0 +1,17 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cursed-black text-portfolio-white font-mono;
+  /* Prevents scrollbars during transitions if content briefly overflows */
+  overflow: hidden;
+}
+
+/* You might want a more specific cursor style for the terminal */
+.terminal-cursor::after {
+  content: '_';
+  @apply text-mint-green;
+  animation: blink-caret .75s step-end infinite;
+}
