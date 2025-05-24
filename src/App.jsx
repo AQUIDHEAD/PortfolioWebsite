@@ -73,9 +73,11 @@ function App() {
           id="main-content-wrapper"
           className="w-full h-full flex flex-col animate-fadeIn flex-grow"
         >
-          {/* Header: Your Name - Made Responsive */}
+          {/* Header: Logo and Name - Made Responsive */}
           <header
-            className="absolute top-2 left-2 md:top-4 md:left-4 z-20 p-1 md:p-2 bg-cursed-black bg-opacity-50 backdrop-blur-sm rounded-md max-w-[calc(100%-130px)] sm:max-w-[calc(100%-180px)]"
+            className="absolute top-2 left-2 md:top-4 md:left-4 z-20 p-1 md:p-2 bg-cursed-black bg-opacity-50 backdrop-blur-sm rounded-md 
+                       flex items-center space-x-2 sm:space-x-3" 
+            style={{ maxWidth: 'calc(100% - 100px)' }} 
           >
             <h1
               className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold text-portfolio-white truncate"
