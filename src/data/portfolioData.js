@@ -49,8 +49,8 @@ export const projects = [
       "React",
       "Tailwind CSS"
     ],
-    repoUrl: "#",
-    liveUrl: "#", // Set to null if no live site
+    repoUrl: "https://github.com/AQUIDHEAD/PortfolioWebsite",
+    liveUrl: "https://portfolio-website-delta-khaki.vercel.app/", // Set to null if no live site
     videoSrc: "https://res.cloudinary.com/dhoa8zcl1/video/upload/v1754315316/PersonalWebsiteVideo_bn6zft.mp4" 
   },
   {
